@@ -9,13 +9,14 @@ public class MenuUI {
         while (true) {
             System.out.println("Enter a mathematical expression (Enter /help " +
                     "to learn about commands and how to perform possible" +
-                    "operations.) (Enter /exit to exit)");
+                    " operations.)\n(Enter /exit to exit)");
             String expression = scanner.nextLine();
-            if (expression == "/help") {
+            if (expression.equals("/help")) {
                 HelpUI.start();
                 scanner.nextLine();
             }
-            if (expression == "/exit") {
+            if (expression.equals("/exit")) {
+                System.out.println("Exiting...");
                 scanner.close();
                 System.exit(0);
             }

@@ -14,6 +14,7 @@ public class HelpUI {
                 "\ntan(x) = tangent" +
                 "\nlog(x) = logarithm" +
                 "\nx % y = percentage" +
-                "\nx! = factorial");
+                "\nx! = factorial" +
+                "\nEnter to continue...");
     }
 }
