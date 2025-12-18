@@ -5,7 +5,7 @@ public class Logarithm implements Operations {
         if (a <= 0 || b <= 0) {
             throw new IllegalArgumentException("Base and value must be positive.");
         }
-        return Math.log(b) / Math.log(a);
+        return Math.log(a) / Math.log(b);
     }
 
     public String name() {
