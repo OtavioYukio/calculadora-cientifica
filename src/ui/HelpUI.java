@@ -8,7 +8,7 @@ public class HelpUI {
                 "\nx * y = multiplication"  +
                 "\nx / y = division" +
                 "\nx ^ y = exponentiation" +
-                "\nsqrt = square root" +
+                "\nx ^ 1/y = radication" +
                 "\ncos(x) = cosine" +
                 "\nsin(x) = sine" +
                 "\ntan(x) = tangent" +
