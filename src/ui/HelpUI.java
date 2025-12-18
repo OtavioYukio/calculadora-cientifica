@@ -5,7 +5,7 @@ public class HelpUI {
         System.out.println("--- HELP ---" +
                 "\nx + y = addition" +
                 "\nx - y = subtraction" +
-                "\nx * y = multiplication" +
+                "\nx * y = multiplication"  +
                 "\nx / y = division" +
                 "\nx ^ y = exponentiation" +
                 "\nsqrt = square root" +
